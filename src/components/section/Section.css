@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+*{
+  margin: 0%;
+}
+#banner {
+  width: 100%;
+  background-image: url(slide1.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 72%;
+  min-height: 400px;
+  margin-top: 0px;
+}
+.texto{
+    background: rgba(0,0,0,0.3);
+    width: 99%;
+    height: 20%;
+    padding: 3%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 45%;
+}
+@media (max-width: 768px) {
+  .texto{
+    top: 50%;
+}
+}

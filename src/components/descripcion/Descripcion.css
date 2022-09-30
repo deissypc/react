@@ -1,0 +1,25 @@
+.articulo {
+    margin: 2%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+    overflow-x: hidden;
+  }
+  
+  
+  .parrafo{
+      display: flex;
+      position: relative;
+      width: 50%;
+      text-align: left;
+      font-family: Arial, Helvetica, sans-serif;
+      float: left;
+      font-size: 1.4em;
+  }
+  .imagen2{
+    width: 75%;
+    height: 70%;
+  }

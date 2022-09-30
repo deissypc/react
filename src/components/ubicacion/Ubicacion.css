@@ -1,0 +1,16 @@
+iframe{
+    margin: 2% 0%;
+  }
+  
+  #ubicacion h1 {
+    text-align: center;
+    padding: 1rem;
+    font-size: 2.5em;
+    font-family: "Marcellus", serif;
+  }
+  .dirreccion {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid black;
+  }
