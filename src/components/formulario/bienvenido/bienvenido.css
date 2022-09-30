@@ -1,0 +1,12 @@
+.bien{
+    background-color: #1f5a8aea;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 150%;
+    text-align: center;
+    color: white;
+   }

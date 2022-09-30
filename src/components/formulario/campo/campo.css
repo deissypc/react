@@ -1,0 +1,43 @@
+.t input{
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    padding: 5px;
+    justify-content: space-around; 
+   }
+   
+   
+   .t select{
+    display: flex;
+    width:130%;
+    margin: 0px;
+    padding: 5px;
+    justify-content: space-around;   
+   }
+
+   .l{
+    display: flex;
+    padding: 0px;
+    justify-content: space-around; 
+    font-size: 80%;  
+   }
+
+   .f{
+    display: flex;
+    
+    flex-direction: row; 
+    font-size: 90%;  
+   }
+   .blogin{
+    background-color: var(--negro2);
+    width: 100%;
+    padding: 8px;
+    margin: 13px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+   }
+
+
+
+
