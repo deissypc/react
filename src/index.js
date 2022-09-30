@@ -1,13 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Home from './pages/home/Home';
 import reportWebVitals from './reportWebVitals';
+import {BrowserRouter,Route,Routes} from 'react-router-dom';
+import Home from './pages/home/Home';
+import Login from './pages/login/Login';
+import Formulario from './pages/formulario/Formulario';
+import Dashboard from './pages/dashboard/Dashboard';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Home />
+   <BrowserRouter>
+   <Routes>
+    <Route path='/' element={<Home/>}/>
+    <Route path='/Login' element={<Login/>}/>
+    <Route path='/Formulario' element={<Formulario/>}/>
+    <Route path='/Dashboard' element={<Dashboard/>}/>
+   </Routes>
+   </BrowserRouter>
   </React.StrictMode>
 );
 

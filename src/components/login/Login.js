@@ -2,6 +2,7 @@ import './Login.css';
 import avatar from './avatar.png';
 import './fondocaja2.png';
 import logo from './Hotelia horizontal negro.svg';
+import {Link} from 'react-router-dom';
  function Login(){
     return(
         <div  class="contenedor">
@@ -14,8 +15,8 @@ import logo from './Hotelia horizontal negro.svg';
               <input class="cajitas" type="text" name="usuario" value="" />
               <label>Contraseña:</label>
               <input class="cajitas" type="password" name="contraseña" value=""/>
-              <a href="dashboard.html" class="ingresar">ingresar</a><br></br><br></br>
-              <p>¿No tienes una cuenta? <a class="registrate" href="registro.html">Registrate aqui</a> </p>
+              <Link to="/Dashboard"><a href="" class="ingresar">ingresar</a></Link><br></br><br></br>
+              <Link to="/Formulario"><p>¿No tienes una cuenta? <a class="registrate" href="">Registrate aqui</a> </p></Link>
               </div>
 
              </div>

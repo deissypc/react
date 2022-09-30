@@ -1,5 +1,5 @@
 import '../campo/campo.css';
-import Modal from './Modal';
+import {Link} from 'react-router-dom';
 import './caja.css';
 
 
@@ -30,35 +30,15 @@ function Caja() {
     <input type="password" name="contr"></input>
     <br></br>
    
-   <a href={Modal} class="terminos" > <input type="checkbox" name="chkestado" id="chkestado"/> terminos 
+   <a href="" class="terminos" > <input type="checkbox" name="chkestado" id="chkestado"/> terminos 
    y condiciones</a>
   
-        <div class="ventana">
-        <div class="modal_con">
-            <h1>Terminos y Condiciciones</h1>    
-        <p>Estos terminos de servicio reflejan la forma
-            de trabajar de google como empresa, las
-            leyes por las que nos regimos y determinados 
-            aspectos que siempren hemos creido que son
-            ciertos. Por ello, estos terminos de servicios a
-            yudan a definir la relacionque tiene Google
-            contigo cunado interatuas con nuestros
-            servicios. Por ejemplo estos terminoos
-            incluyen las siguientes seccione:
-            Que puedes esperar de nosotros,donde se  
-            describecomo proporcionamos yudandesarrollamos nuestros servicio,
-            Loque esperamos de ti, donde se establecen 
-            ciertas reglas para utlizar nuestros servicios.  
-        </p>
-        <a href="" class="cerrar">Aceptar</a>
-       </div>
-       </div>
     
   
   
    
        <br></br>
-        <button class="blogin">Ingresar</button>
+       <Link to="/Login"> <button class="blogin">Ingresar</button></Link>
         </div>
   );
 }
