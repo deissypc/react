@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Formulario from './pages/formulario/Formulario';
+import Home from './pages/home/Home';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Formulario />
+    <Home />
   </React.StrictMode>
 );
 

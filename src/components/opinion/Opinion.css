@@ -1,0 +1,129 @@
+.usuarios{
+    width: 100%;
+    height: 30%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+
+.box{
+    color: white;
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+.icon{
+    color: white;
+    display: inline-block;
+}
+.opinionimg{
+    width: 90%;
+    height: 90%;
+    border-radius: 100%;
+    float: left;
+
+}
+.nombre{
+    width: 65%;
+    float: right;
+    text-align: left;
+
+}
+
+.estrellas{
+    color: white;
+}
+
+
+ 
+
+/*Resolución tabletas*/
+@media screen and (max-width:768px) {
+    
+      .box{
+        padding: 4%;
+      }
+     
+      ul li {
+        list-style: none inside;
+      }
+      .carrusel{
+       
+width: 100%;
+
+      }
+      .carrusel .cajas{
+     width: 300%;
+     margin-top: -26%;
+     display: flex;
+     flex-flow: row nowrap;
+     justify-content: space-around;
+     align-items: center;
+     transition:  all .5s case;
+     transform:  translateX(-100%);
+      }
+      .carrusel .caja{
+        width: calc( 50% / 3 - 3em);
+        height: 20%;
+        color: white;
+        transition: all 0.4s ease;
+        border-radius: 1px;
+        background: linear-gradient(94.54deg, #2875b9 2.89%, #0d3f6c 80.34%);
+       padding: 2%;
+       font-family: sans-serif;
+      }
+.carrusel .puntos{ 
+width: 100%;
+padding: 2em;
+display: grid;
+grid-template-columns: 15% 15% 15%;
+grid-template-rows: 10%;
+align-items: center;
+justify-content: center;
+
+}
+.carrusel .punto{
+width: 3em;
+height: 0.5em;
+background-color: rgb(55, 56, 56);
+margin: 1em;
+}
+.carrusel .punto.activo{
+    background-color: rgb(27, 27, 27);
+}
+}
+
+
+
+/*Resolución resoluciones macro*/
+@media screen and (min-width:1308px) {
+   
+        .cajas{
+            width: 100%;
+            display: grid;
+            grid-template-columns: 25% 25% 25%;
+            grid-gap: 8%;
+            margin: 0px 2% 0px 5%;
+            font-size: 1.1em;
+        }  
+        .caja{
+            margin-top: -48%;
+            margin-bottom: 22%;
+            height: 18em;
+            padding: 6%;
+            background: linear-gradient(94.54deg, #1d71bb 2.89%, #0d3f6c 80.34%);
+            color: white;
+            font-family: sans-serif ;
+            
+            
+        }
+        
+         .puntos{
+            display: none;
+         }
+}
+p{
+    color: white;
+}
+
+

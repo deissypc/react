@@ -1,0 +1,29 @@
+footer {
+    grid-area: footer;
+    background-color: black
+}
+@media screen and (min-width:1308px) {
+   
+    hr{
+        display: none;
+       }
+       .texto{
+        margin-top: 20%;
+      }    
+    .grupo-1{
+        
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10%;
+        padding: 4% 4%;
+        justify-content: space-around;
+        }
+    }
+    .box{
+        color: white;
+        font-size: 1.2em;
+        font-family: sans-serif;
+    }
