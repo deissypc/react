@@ -1,0 +1,10 @@
+.an1{
+    background-color: #1f5a8aea;
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    font-size:120%;
+    color: white;
+    width: 110%;
+   
+   }

@@ -1,0 +1,22 @@
+.sub{
+    background-color: #337AB7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 150%;
+    width: 180px;
+    color: white;
+  }
+  
+  .v{
+    background-color: var(--negro2);
+    font-size: 130%;
+    width: 180px;
+  }
+  
+  .z{
+    background-color: var(--negro2);
+    color: white;
+    font-size: 100%;
+    text-decoration: none;
+  }

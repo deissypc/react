@@ -1,0 +1,14 @@
+.ico{
+    background-color: var(--azulnegro);
+    display: flex;
+    flex-direction: column;
+    width: 110%;
+    height: 78vh;
+    color: white;
+    margin-top: 1px;
+    font-size: 150%;
+  }
+  
+  .ico i{
+    margin: 1em;
+  }

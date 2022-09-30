@@ -1,5 +1,3 @@
-
-  
 const openModal = document.querySelector('.terminos');
 const modal = document.querySelector('.ventana');
 const closeModal = document.querySelector('.cerrar');
