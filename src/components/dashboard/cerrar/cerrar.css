@@ -1,10 +1,31 @@
 .h{
+  background-color: var(--azulnegro);
+  display: flex;
+  flex-direction: column;
+  width: 110%;
+  color: white;
+  font-size: 150%;
+  justify-content: flex-end;
+}
+
+  .h p:hover{
+    background-color: #0B3860;
+    width: 100%;
+   }
+
+  @media screen and (min-width: 300px) and (max-width:700px){
+    .h{
     background-color: var(--azulnegro);
     display: flex;
     flex-direction: column;
-    width: 110%;
+    width:40px;
     color: white;
-    font-size: 150%;
+    font-size: 50%;
     justify-content: flex-end;
   }
-  
+
+  .h p:hover{
+    background-color: #0B3860;
+    width: 100%;
+   }
+}

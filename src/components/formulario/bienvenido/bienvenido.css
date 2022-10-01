@@ -10,3 +10,21 @@
     text-align: center;
     color: white;
    }
+
+   @media screen and (min-width: 300px) and (max-width:700px){
+    .bien{
+ background-color: #1f5a8aea;
+ display:flex;
+ margin:-4em;
+ flex-direction:column;
+ justify-content: center;
+ text-align:center;
+ font-size:80%;
+ color: white; 
+}
+
+.bien img{
+ display: flex;
+ width:100px;
+ text-align:center;
+}}

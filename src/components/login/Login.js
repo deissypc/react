@@ -5,11 +5,15 @@ import logo from './Hotelia horizontal negro.svg';
 import {Link} from 'react-router-dom';
  function Login(){
     return(
+       <section id="logi">
         <div  class="contenedor">
               <div class="cajalogo" >
+                
               <img class="logo" src={logo} />
               </div>
+              
               <div class="form-login">
+              
               <img class="avatar" src={avatar} alt=""/>
               <label>Usuario:</label>
               <input class="cajitas" type="text" name="usuario" value="" />
@@ -20,6 +24,8 @@ import {Link} from 'react-router-dom';
               </div>
 
              </div>
+             </section>
+            
              );
  }
 export default Login;

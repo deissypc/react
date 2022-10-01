@@ -41,14 +41,14 @@ h1,h2,h3,h4,h5{
     display: flex;
     justify-content: space-around;
    }
-   
+
    .in1{
     background-color: #ced4d4;
     margin: 4rem;
     display: flex;
     justify-content: space-around;
     width: 90%;
-    height: 80vh;
+    height: 90vh;
     opacity: 80%;
     padding: 15px; 
    }
@@ -60,4 +60,64 @@ h1,h2,h3,h4,h5{
     justify-content: space-around;
     font-size: 150%;
    }
+
+   @media screen and (min-width: 300px) and (max-width:700px){
+    #dashboard{
+      background-image: url(../formulario/edif.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+     }
+     
+     
+     
+     .an1{
+      background-color: #1f5a8aea;
+      display: flex;
+  
+      flex-direction: column;
+      width: 40px;
+  
+      color: white;
+    
+      font-size: 40%;
+     
+     
+     }
+     .an1 h3 {
+      display:none;
+     }
+     .an1 p{
+      display: none;
+     }
+     .an1 h2{
+      display: none;
+     }
+     
+     .an img{
+      width: 30px;
+     }
+     .dash{
+      display: flex;
+      flex-wrap: wrap;
+      
+     }
+     
+      
+     .in{
+      background-color: #ced4d4;
+    margin: 1em;
    
+       width:72%;
+      opacity: 80%;
+      
+      
+     }
+        
+     .y{
+      display: flex;
+      font-size:60%;
+      align-items: center;
+      flex-direction:column;
+     }
+    }

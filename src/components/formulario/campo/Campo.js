@@ -1,5 +1,5 @@
 import './campo.css';
-
+import '../../../pages/formulario/formulario.css';
 
 function Campo() {
   return (

@@ -45,11 +45,13 @@ h1,h2,h3,h4,h5{
  margin: 4rem;
  display: flex;
  justify-content: space-around;
- width: 80%;
- height: 80vh;
+ width: 100%;
+ height: 90vh;
  opacity: 80%;
  padding: 15px;
 }
+
+
 
 .t{
     display: flex;
@@ -59,5 +61,30 @@ h1,h2,h3,h4,h5{
     justify-content: space-around;
     font-size: 150%;
    }
+
+   @media screen and (min-width: 300px) and (max-width:700px){
+    #formulario{
+        background-image: url(./edif.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding:4em;
+       }
+
+       .dat{
+        background-color: #ced4d4;
+        margin-top:4em;
+         width:100%;
+        opacity: 90%;
+        padding: 10px;
+        display: flex;
+        justify-content: center; 
+       }
+          
+       .t{
+        display: flex;
+        font-size:70%;
+        align-items: center;
+        flex-direction:column;
+       }}
 
  

@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     width: 110%;
-    height: 78vh;
+    height: 70vh;
     color: white;
     margin-top: 1px;
     font-size: 150%;
@@ -12,3 +12,29 @@
   .ico i{
     margin: 1em;
   }
+
+  .ico p:hover{
+    background-color: #0B3860;
+    width: 100%;
+   }
+
+  @media screen and (min-width: 300px) and (max-width:700px){
+    .ico{
+    background-color: var(--azulnegro);
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    height: 100vh;
+    color: white;
+    
+    font-size: 40%;
+  }
+  
+  .ico i{
+    margin: 1em;
+  }
+
+  .ico p:hover{
+    background-color: #0B3860;
+    width: 100%;
+   }}

@@ -13,7 +13,7 @@ function Foto() {
     <br></br>
     <button class="v"><a href="" class="z">Cambiar contraseña</a></button>
 </div>   
-           
+
   );
 }
 

@@ -1,29 +1,29 @@
 .y input{
-    display: flex;
-    width: 100%;
-    margin: 0px;
-    padding: 5px;
-    justify-content: space-around; 
-   }
-   
-   
-   .y select{
-    display: flex;
-    width:130%;
-    margin: 0px;
-    padding: 5px;
-    justify-content: space-around;   
-   }
+  display: flex;
+  width: 100%;
+  margin: 0px;
+  padding:1px;
+  justify-content: space-around; 
+ }
 
-   .o{
-    background-color: var(--negro2);
-    font-size: 120%;
-    width: 180px;
-  }
-  
-  .w{
-    background-color: var(--negro2);
-    color: white;
-    font-size: 90%;
-    text-decoration: none;
-  }
+
+ .y select{
+  display: flex;
+  width:130%;
+  margin: 0px;
+  padding: 5px;
+  justify-content: space-around;   
+ }
+
+ .o{
+  background-color: var(--negro2);
+  font-size: 120%;
+  width: 180px;
+}
+
+.w{
+  background-color: var(--negro2);
+  color: white;
+  font-size: 90%;
+  text-decoration: none;
+}

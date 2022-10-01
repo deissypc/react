@@ -1,17 +1,16 @@
 .t input{
     display: flex;
-    width: 100%;
-    margin: 0px;
-    padding: 5px;
+    width: 120%;
+    
     justify-content: space-around; 
    }
-   
-   
+
+
    .t select{
     display: flex;
-    width:130%;
+    width:120%;
     margin: 0px;
-    padding: 5px;
+    padding: 2px;
     justify-content: space-around;   
    }
 
@@ -19,24 +18,47 @@
     display: flex;
     padding: 0px;
     justify-content: space-around; 
-    font-size: 80%;  
+    font-size: 70%;  
    }
 
    .f{
     display: flex;
-    
+
     flex-direction: row; 
     font-size: 90%;  
    }
    .blogin{
     background-color: var(--negro2);
-    width: 100%;
+    width: 90%;
     padding: 8px;
-    margin: 13px;
+    
     color: white;
     text-decoration: none;
     cursor: pointer;
    }
+   
+
+
+
+
+
+
+
+   @media screen and (min-width: 300px) and (max-width:700px){
+    .t input{
+        width: 80%;
+        margin: 2px;
+        padding: 3px;
+       }
+          
+       .t select{
+        display: flex;
+        width:90%;
+        margin: 0px;
+        padding: 3px;
+        justify-content: space-around;
+       }}
+   
 
 
 

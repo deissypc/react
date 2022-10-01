@@ -1,6 +1,6 @@
 import './dato.css';
 import '../../../pages/dashboard/dashboard.css';
-import '../../formulario/campo/campo.css';
+
 
 function Dato() {
   return (
@@ -31,7 +31,7 @@ function Dato() {
                 <label>Contraseña:</label>
                 <input type="password" name="con"/>
             </div>
-           
+
   );
 }
 
