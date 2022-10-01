@@ -3,7 +3,7 @@ import logo from './Hotelia negro vertical.svg'
 function Descripcion(){
     return(
 <section class="articulo">
-    <h4 class="parrafo">Estamos ubicados en el barrio La Cabrera al norte de Bogotá,en un contexto de
+    <p class="parrafo">Estamos ubicados en el barrio La Cabrera al norte de Bogotá,en un contexto de
     lujo donde interatuan los negocios, el ocio y el descanso, gracias a su
     estrategia ubicacion rodeada de bancos, restaurantes de alta cocina, centros
     comerciales, almaces de lujony emblematicos parques para aprovechar la
@@ -13,7 +13,7 @@ function Descripcion(){
     saludable a base de productos locales, cargasdos de o mejor de la tradicion
     colombiana. 
     
-</h4>
+</p>
 <div class="cajaimagen2">
 
 <img class="imagen2" src={logo} /></div>

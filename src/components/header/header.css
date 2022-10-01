@@ -43,9 +43,12 @@ nav {
     border: none;
     color: var(--blanco);
   }
-.menu-hr{
-  display: none;
+  .menu-hr {
+    width: 90%;
+    background-color: var(--blanco);
+    justify-self: center; /*para centrar el hr*/
 }
+
 .item {
   padding: 1rem;
 }
