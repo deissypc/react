@@ -9,8 +9,6 @@ import {Link} from 'react-router-dom';
         <div  class="contenedor">
               <div class="cajalogo" >
 
-                
-              <img class="logo" src={logo} />
 
               <img class="logol" src={logo} />
 
