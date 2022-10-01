@@ -7,7 +7,7 @@ import {Link} from 'react-router-dom';
     return(
         <div  class="contenedor">
               <div class="cajalogo" >
-              <img class="logo" src={logo} />
+              <img class="logol" src={logo} />
               </div>
               <div class="form-login">
               <img class="avatar" src={avatar} alt=""/>

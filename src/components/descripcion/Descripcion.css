@@ -1,3 +1,5 @@
+@media screen and (min-width:1308px) {
+   
 .articulo {
     margin: 2%;
     width: 100%;
@@ -11,6 +13,7 @@
   
   
   .parrafo{
+    color: black;
       display: flex;
       position: relative;
       width: 50%;
@@ -23,3 +26,6 @@
     width: 75%;
     height: 70%;
   }
+}
+.parrafo{
+  color: black;}
